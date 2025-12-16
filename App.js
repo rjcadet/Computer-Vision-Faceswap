@@ -69,7 +69,7 @@ export default function App() {
         type: "image/jpeg",
       });
 
-      const backendUrl = "http://10.1.129.66:8000/swap";
+      const backendUrl = "http://!!!!!REPLACE IP HERE!!!!!:8000/swap";
 
       const response = await fetch(backendUrl, {
         method: "POST",
