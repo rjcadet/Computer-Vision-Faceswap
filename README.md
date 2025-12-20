@@ -8,7 +8,7 @@ Python 3.9+
 Note: When using the Expo go app, your phone and computer MUST be on the same wifi for the backend to work.
 3. Install python dependencies in Terminal:
    pip install fastapi uvicorn opencv-python dlib numpy
-4. You also have to download the dlib facial landmark model and place it in the project root:
+4. You also have to download the dlib facial landmark model and place it in the "faceswap_backend" folder:
    http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
    unzip it to get "shape_predictor_68_face_landmarks.dat"
 5. Open App.js and replace the "!!!!!REPLACE IP HERE!!!!!" on line 72 to be your local ip (you can get this by running: "ipconfig getifaddr en0" in terminal (this won't change when you move around, it pertains to the wifi on your computer.)
